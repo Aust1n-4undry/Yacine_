@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trips</title>
+
+    <link rel="stylesheet" href="../style/main.css">
+    <link rel="stylesheet" href="../style/products.css">
+</head>
+<body>
+
+<header>
+    <nav class="navbar">
+        <div class="logo">🚀 Galaxy Escape</div>
+
+        <ul class="nav-links">
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="products.html">Trips</a></li>
+            <li><a href="register.html">Register</a></li>
+            <li><a href="login.html">Login</a></li>
+            <li><a href="booking.html">Booking</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main>
+
+<section class="filter-section">
+    <button onclick="filterTrips('All')">All</button>
+    <button onclick="filterTrips('Moon')">Moon</button>
+    <button onclick="filterTrips('Mars')">Mars</button>
+    <button onclick="filterTrips('Hotel')">Hotels</button>
+    <button onclick="filterTrips('Orbit')">Orbit</button>
+</section>
+
+<section id="productsContainer" class="products-grid"></section>
+
+</main>
+
+<script src="../javascript/data.js"></script>
+<script src="../javascript/products.js"></script>
+
+</body>
+</html>
