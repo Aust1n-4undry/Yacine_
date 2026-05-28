@@ -1,0 +1,48 @@
+.form-section {
+    min-height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-container {
+    width: 400px;
+    background: #101935;
+    padding: 30px;
+    border-radius: 12px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.form-container h2 {
+    text-align: center;
+}
+
+.form-container input,
+.form-container select {
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+}
+
+.form-container button {
+    padding: 12px;
+    background: #00d9ff;
+    border: none;
+    border-radius: 8px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.form-container button:hover {
+    opacity: 0.8;
+}
+
+#registerMessage,
+#loginMessage,
+#bookingMessage {
+    text-align: center;
+    font-weight: bold;
+}
